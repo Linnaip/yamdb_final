@@ -1,6 +1,8 @@
 from django.core.management import BaseCommand
 
-from .utils import (check_files, get_path, get_models_and_files, load_data)
+from .utils import (check_files, get_path,
+                    get_models_and_files,
+                    load_data)
 
 
 class Command(BaseCommand):
