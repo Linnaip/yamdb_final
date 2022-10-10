@@ -1,4 +1,4 @@
-### infra_sp21
+### infra_sp2
 https://github.com/linnaip/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
 ### Описание: 
   REST API для проекта YaMDb. С этим интерфейсом могут взаимодействовать мобильные приложения, боты или другие сторонние ресурсы.  
