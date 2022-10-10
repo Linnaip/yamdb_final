@@ -45,7 +45,7 @@ jobs:
         with:
           context: api_yamdb
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/#мой репозиторий на докер хаб
+          tags: ${{ secrets.DOCKER_USERNAME }}/yamdb_final:latest
 
   deploy:
     name: Deploy to server
