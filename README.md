@@ -8,10 +8,10 @@ https://github.com/linnaip/yamdb_final/actions/workflows/yamdb_workflow.yml/badg
 ### Технологии в проекте:
   Python 3.9, Django 2.2.16, Django REST Framework (DRF), Docker
 
-Как запустить проект:
+###Как запустить проект:
 ###Клонировать репозиторий и перейти в него в командной строке:
 ```
-git clone https://github.com/linnaip/infra_sp2.git
+git clone git@github.com:Linnaip/yamdb_final.git
 ```
 ```
 cd infra
