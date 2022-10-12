@@ -40,7 +40,7 @@ DB_PORT=5432 # порт для подключения к БД
 docker cp fixtures.json <id контенера>:/app
 docker-compose exec web python manage.py loaddata fixtures.json
 ```
-### Ссылка на развернутый проект
+### Ссылка на развернутый проект 123
 
 ###Автор:
 ```
