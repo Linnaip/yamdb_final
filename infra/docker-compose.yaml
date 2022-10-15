@@ -12,7 +12,7 @@ services:
     image: linnaip/yamdb_final
     restart: always
     volumes:
-      - static_value:/app/staticfiles/
+      - static_value:/app/static/
       - media_value:/app/media/
     depends_on:
       - db
@@ -27,8 +27,8 @@ services:
 
     volumes:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
-      - ./redoc.yaml:/var/html/staticfiles/redoc.yaml
-      - static_value:/var/html/staticfiles/
+      - ./redoc.yaml:/var/html/static/redoc.yaml
+      - static_value:/var/html/static/
       - media_value:/var/html/media/
 
     depends_on:
